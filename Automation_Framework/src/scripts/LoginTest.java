@@ -18,6 +18,7 @@ public class LoginTest extends Base implements IAutoConstant{
 		String pw=Lib.getCellValue(EXCEL_FILE, "invalid login", 1, 1);
 		lp.password(pw);
 		lp.clickBtn();
+		
 	}
 	
 }
